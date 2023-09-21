@@ -1,0 +1,77 @@
+  .EstamosE{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+
+  .TituloE{
+    margin-bottom: 2%;
+    margin-left: -32%;  
+    margin-left: 7%;
+  }
+  .imagenE{
+    width: 5vw;
+    margin-top: 1vw;
+  }
+  .BotonE{
+    width: 30vw;
+    height: 20vw;
+    margin-left: 20%;
+    margin-bottom: 20%;
+    cursor: pointer;
+    }
+    .subE{
+      margin-top: 10px;
+    }
+    .ContenidoE{
+      margin-top: 10px;
+      margin: 15px;
+      justify-content: center;
+    }
+    .CuadradosE{
+      display: grid;
+      grid-template-columns: repeat(2,30vw);
+      grid-auto-rows: 400px;
+      gap: 10px;
+      margin-left: 15%;
+    }
+
+  @media screen and (max-width: 768px) {
+    .EstamosE {
+      width: 80%;
+      text-align: center;
+      align-items: center;
+      margin-left: 11%;
+    }
+    .TituloE{
+      margin-bottom: 2%;
+      margin-left: 1em;
+    }
+    .imagenE {
+      width: 10vw;
+      margin-top: 0.1vw;
+    }
+    .BotonE{
+      width: 100%;
+      height: 100%;
+      margin-left: 1%;
+    }
+    .CuadradosE {
+      display: block;
+      margin: 2% 10% auto;
+    }
+
+    .ContenidoE{
+      margin-top: 10px;
+      margin: 15px;
+      justify-content: center;
+
+    }
+
+  }
+
+  .CuadradoE .BotonE:hover {
+    transform: translateY(-5px);    
+    box-shadow: 0px 5px 5px 0px #000000 ;
+    transition: transform 0.5s ease-in-out;
+  }

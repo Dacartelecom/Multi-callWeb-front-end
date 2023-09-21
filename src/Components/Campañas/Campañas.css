@@ -1,0 +1,29 @@
+.contenido-total-camp{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 2em 0;
+}
+.container-campaing{
+  width: 75%;
+  margin: auto;
+}
+.text-adicional{
+  cursor: default;
+}
+.text-adicional span{
+  color: #818181;
+}
+.text-adicional h2{
+  color: #F38629;
+}
+.camp-img img{
+  width: 80%;
+}
+
+@media screen and (max-width: 960px){
+  .container-campaing{
+    width: 100%;
+    margin: auto;
+  }
+}

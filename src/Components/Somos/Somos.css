@@ -1,0 +1,127 @@
+.ContenedorS{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 2em 0;
+  color: rgb(71, 71, 71);
+  cursor: default;
+}
+.LinkS {
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  padding-bottom: 5px;
+  color: #DC6722;
+  font-size: 1.2em;
+}
+.ContenidoS{
+  width: 90%;
+  margin: auto;
+  font-size: 1em;
+}
+.LinkS:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background-color: #F38629;
+  width: 0;
+  height: 3px;
+  transition: width 0.3s ease-in-out;
+}
+.LinkS:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 10px;
+  bottom: -4px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #F38629;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.container-somos{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center
+}
+.gif-somos{
+  width: 150%;
+  border-radius: 60%  10%  60%  10%;
+}
+.LinkS:hover:after {
+  width: 80%;
+}
+
+.LinkS:hover:before {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .ContenedorS{
+      text-align: center;
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+  .TituloS{
+      margin: 0.5em;
+  }
+  .LinkS {
+      position: relative;
+      text-decoration: none;
+      color: #DC6722;
+      padding-bottom: 5px;
+    }
+    .LinkS:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0.08em;
+      background-color: #084A99;
+      transition: width 0.3s ease-in-out;
+    }
+    .LinkS:before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 0.3em;
+      bottom: -5px;
+      height: 0.3em;
+      border-radius: 50%;
+      background-color: #084A99;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+
+      
+    }
+    .ContenidoS{
+      margin:1em auto;
+      font-size: 1.5em;
+    }
+    .LinkS:hover:after {
+      width: 80%;
+    }
+    
+    .LinkS:hover:before {
+      opacity: 1;
+      
+    }
+
+}
+@media screen and (max-width: 960px){
+  .gif-somos{
+    display: none;
+  }
+
+}

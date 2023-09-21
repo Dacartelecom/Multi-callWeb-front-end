@@ -1,0 +1,91 @@
+.PrincipalV{
+  width: 70%;
+
+  height: 50%;
+  text-align: center;
+  margin: 5% auto;
+  color: white;
+}
+.logoV{
+  width: 2em;
+  margin-top: 0.5em;
+}
+.SwipCarrusel{
+  background-color: #00549e;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.custom-slider{
+  width: 100%;
+  height: auto;
+  margin-left: 25%;
+  border-radius: 1vw;
+}
+.TituloV{
+  font-size: 4vw;
+  margin: 2vw;
+}
+
+.CuadroV{
+  text-align: center;
+  font-size: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .PrincipalV{
+    height: 40%;
+  }
+  .logoV{
+    height: 12vw;
+    margin: 0.8vw;
+  }
+  .custom-slider{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .TituloV{
+    font-size: 11vw;
+  }
+
+  .CuadroV{
+    font-size: 3vw;
+    margin-bottom: 6vw;
+  }
+
+
+}
+
+/* Estilos para tabletas y pantallas más grandes */
+
+@media only screen and (min-width: 601px) {
+
+  .PrincipalV{
+    height: 30%;
+  }
+
+  .custom-slider{
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .TituloV{
+    font-size: 16vw;
+  }
+
+  .CuadroV{
+    font-size: 2vw;
+    margin-bottom: 3vw;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .logoV{
+    width: 6em;
+    margin-top: 1em;
+    height: auto;
+  }
+
+}

@@ -1,0 +1,26 @@
+
+.TituloS{
+  font-size: 2em;
+  margin: 1em 0;
+}
+a{
+  font-size: 1em;
+}
+
+@media (min-width: 768px) {
+
+  .TituloS{
+    font-size: 2.5em;
+    margin: 1em 0;
+  }
+
+}
+html{
+  scroll-behavior: smooth;
+}
+.nav{
+  margin: 0 -2em;
+}
+button{
+  background: transparent;
+}

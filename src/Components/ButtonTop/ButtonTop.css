@@ -1,0 +1,9 @@
+
+.scroll-to-top{
+  cursor: pointer;
+}
+
+.scroll.show{
+  display: block;
+  opacity: 0.5;
+}
